@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header div a h2 {
+    display: inline;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding-left: 4vh;
+}
+
+ul {
+    padding-top: 1.5vh;
+}
+
+ul li {
+    display: inline;
+}
+
+ul li h2 {
+    display: inline;
+}
+
+header {
+    top: 0;
+    height: 7vh;
+}
+
+header,
+footer {
+    position: absolute;
+    background-color: rgba(40, 42, 173, 0.9);
+    width: 100%;
+    color: white;
+}
+
+footer {
+    bottom: 0;
+    /* Фиксированное положение */
+    left: 0;
+    /* Левый нижний угол */
+    padding: 10px;
+    /* Поля вокруг текста */
+    background: rgba(58, 60, 230, 0.815);
+    /* Цвет фона */
+    color: #fff;
+    /* Цвет текста */
+    width: 100%;
+    /* Ширина слоя */
+}
+
+body {
+    background-size: cover;
+    background-image: url(pic3.jpg);
+    /* Фоновый цвет и фоновый рисунок*/
+    color: #fff;
+    /*Цвет текста на странице*/
+    /* Фон страницы фиксируется */
+}
+
+/* внешние границы таблицы серого цвета толщиной 1px */
+table {
+    border: 1px solid grey;
+}
+
+main div {
+    padding-left: 160px;
+    padding-top: 150px;
+}
+
+/* границы ячеек первого ряда таблицы */
+th {
+    border: 1px solid grey;
+    text-align: center;
+}
+
+/* границы ячеек тела таблицы */
+td {
+    font-size: large;
+    width: 120px;
+    padding:  5%;
+    border: 1px solid grey;
+}
+thead{
+    background-color: darkslategray;
+}
+table colgroup col {
+    background-color: darkcyan;
+}
+
+address a {
+    color: aliceblue;
+    margin-right: 2%;
+    text-decoration: none;
+}
+
+.footer_title {
+    display: inline;
+}
+
+footer h3 {
+    display: inline;
+}
+
+footer div address p {
+    padding-top: 1%;
+}
+
+footer address {
+    padding-left: 1%;
+    display: inline;
+}
