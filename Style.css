@@ -31,15 +31,6 @@ footer {
     color: white;
 }
 
-footer {
-    bottom: 0;
-    /* Левый нижний угол */
-    padding: 15px 0;
-    /* Поля вокруг текста */
-    background: rgba(58, 60, 230, 0.815);
-    color: #fff;
-}
-
 body {
     background-size: cover;
     background-image: url(pic3.jpg);
@@ -91,6 +82,18 @@ address a {
     color: aliceblue;
     margin-right: 2%;
     text-decoration: none;
+}
+
+address p {
+    display: inline;
+}
+footer {
+    bottom: 0;
+    /* Левый нижний угол */
+    padding: 15px 0;
+    /* Поля вокруг текста */
+    background: rgba(58, 60, 230, 0.815);
+    color: #fff;
 }
 .footer_title,
 footer h3,
